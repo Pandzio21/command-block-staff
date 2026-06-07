@@ -1,0 +1,44 @@
+Command Block Staff — Add-on for AvM Staff Mod
+Copyright (c) 2026 Pandzio21. All rights reserved.
+
+================================================================
+LICENSE / TERMS OF USE
+================================================================
+
+This add-on ("Command Block Staff", mod id: avm_staff_commandblock) is
+proprietary software. All rights are reserved by the author (Pandzio21).
+
+YOU MAY:
+  - Use this mod in-game for personal play.
+  - Include this mod, distributed as the original unmodified jar, in
+    modpacks (public or private), provided this license file is kept
+    intact and the author is credited.
+
+YOU MAY NOT, without prior written permission from the author:
+  - Redistribute the standalone mod jar on its own (outside of a modpack).
+  - Decompile, reverse engineer, deobfuscate, or modify the mod.
+  - Reuse, copy, or incorporate any of its code or assets into other
+    projects or mods.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE. THE AUTHOR SHALL NOT BE LIABLE FOR
+ANY DAMAGES ARISING FROM THE USE OF THIS SOFTWARE.
+
+================================================================
+THIRD-PARTY DEPENDENCY NOTICE (required)
+================================================================
+
+This add-on requires and links against the AvM Staff Mod ("Staff Mod",
+mod id: avm_staff) by opekope2, which is licensed under the GNU Lesser
+General Public License, version 3.0 or later (LGPL-3.0-or-later).
+
+The AvM Staff Mod is used and distributed UNMODIFIED. Its source code is
+available at: https://github.com/opekope2/StaffMod
+
+A copy of the GNU General Public License (COPYING) and the GNU Lesser
+General Public License (COPYING.LESSER) is included alongside this mod.
+
+The proprietary terms above apply ONLY to this add-on's own code and
+assets. They do NOT restrict any rights you have under the LGPL with
+respect to the AvM Staff Mod itself.
