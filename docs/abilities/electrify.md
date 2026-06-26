@@ -1,19 +1,10 @@
-# Electrify (Ability 2)
+# Electrify
 
-Zap a mob, player or block with electricity. Electrified mobs are locked in place; electrified blocks get a
-crackling command label.
+Zap a mob, player or block. Electrified mobs are frozen in place; the effect is stored on the entity so it
+sticks until you remove it.
 
-## Controls
+- **Right-click** — electrify what you're aiming at.
+- **Shift + right-click** — un-electrify it.
+- **F4** — clear all electrified blocks.
 
-| Input | Action |
-|-------|--------|
-| Right-click | **Electrify** the entity or block you're aiming at |
-| Shift + right-click | **Un-electrify** the entity or block you're aiming at |
-| ++f4++ | Clear all electrified **blocks** |
-
-## Notes
-
-- Electrify is a **short-range** ability — you have to be reasonably close (not the staff's full beam reach).
-- The effect is **saved on the entity**, so it sticks reliably (it survives reloads until you remove it).
-- Each action tells you what happened (*Electrified Steve*, *Already electrified*, *Un-electrified*, …).
-- A floating command label appears over the target and fades away on its own.
+Short range (not the staff's full beam reach). A floating label tags the target and fades on its own.
