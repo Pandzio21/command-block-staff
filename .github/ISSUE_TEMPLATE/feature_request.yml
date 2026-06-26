@@ -1,0 +1,31 @@
+name: "💡 Feature / idea"
+description: Suggest a new ability, tweak, or improvement.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea? Awesome — describe it below. Screenshots/sketches help a lot.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should the mod do?
+      placeholder: It would be cool if the Beam ability could...
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this be useful?
+      placeholder: This would help because...
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: References / screenshots
+      description: Link any videos or images that show the look/behaviour you have in mind.
+    validations:
+      required: false

@@ -9,8 +9,9 @@ WorldEdit-style, fire projectiles, raise a shield dome, and run command effects,
 > [Discussion](../../discussions).
 
 **Author:** Pandzio21
-**Download:** https://modrinth.com/project/avm-staff-command-block-addon
-**Minecraft:** 1.21 · **Loader:** Fabric
+**Download:** https://modrinth.com/mod/command-block-staff-addon
+**Wiki / docs:** https://pandzio21.github.io/command-block-staff/
+**Minecraft:** 1.21 · **Loaders:** Fabric & NeoForge
 
 ---
 
