@@ -1,5 +1,12 @@
 # Command Block Staff
 
+<p align="left">
+  <a href="https://modrinth.com/mod/command-block-staff-addon"><img alt="Modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg"></a>
+  <a href="https://pandzio21.github.io/command-block-staff/"><img alt="Documentation" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/ghpages_vector.svg"></a>
+  <img alt="Fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">
+  <img alt="NeoForge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/neoforge_vector.svg">
+</p>
+
 An add-on for the **AvM Staff Mod** *(Animation vs Minecraft)* that turns a command block placed in the
 staff into a six-ability power tool — grab entities with a beam, electrify mobs, place & fill blocks
 WorldEdit-style, fire projectiles, raise a shield dome, and run command effects, all from your hand.
