@@ -74,3 +74,5 @@ nav:
   - Ride the Staff: ride.md
   - Settings: settings.md
   - FAQ: faq.md
+
+# (docs site auto-deploys via .github/workflows/docs.yml)
