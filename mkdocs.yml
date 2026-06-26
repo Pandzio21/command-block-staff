@@ -73,6 +73,6 @@ nav:
       - Commands: abilities/commands.md
   - Ride the Staff: ride.md
   - Settings: settings.md
-  - FAQ: faq.md
+  - Troubleshooting: faq.md
 
 # (docs site auto-deploys via .github/workflows/docs.yml)

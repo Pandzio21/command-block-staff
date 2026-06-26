@@ -1,41 +1,22 @@
 # Command Block Staff Addon
 
-An add-on for the **[AvM Staff Mod](https://modrinth.com/mod/avm-staff)** *(Animation vs Minecraft)* that
-lets you slot a **command block** into the staff and wield it as a six-ability power tool — straight out of
-the Animation vs Minecraft series.
+Slot a command block into the **[AvM Staff Mod](https://modrinth.com/mod/avm-staff)** staff and wield it as a
+six-ability tool, straight out of Animation vs Minecraft.
 
-[Download on Modrinth :material-download:](https://modrinth.com/mod/command-block-staff-addon){ .md-button .md-button--primary }
-[Report a bug :material-bug:](https://github.com/Pandzio21/command-block-staff/issues){ .md-button }
+[Download :material-download:](https://modrinth.com/mod/command-block-staff-addon){ .md-button .md-button--primary }
+[Issues :material-bug:](https://github.com/Pandzio21/command-block-staff/issues){ .md-button }
 
----
+| # | Ability | |
+|---|---------|--|
+| 1 | **[Beam](abilities/beam.md)** | Grab entities and fling them. |
+| 2 | **[Electrify](abilities/electrify.md)** | Lock down mobs and players. |
+| 3 | **[Placement](abilities/placement.md)** | Place, fill and auto-build, WorldEdit-style. |
+| 4 | **[Projectile](abilities/projectile.md)** | Rain arrows/fireballs/TNT, or catch and redirect shots. |
+| 5 | **[Shield](abilities/shield.md)** | A force-field dome that blocks and deflects. |
+| 6 | **[Commands](abilities/commands.md)** | Point-and-click command effects. |
 
-## The six abilities
+Switch with **Z + scroll**. Each ability has its own modes (**Left Alt**), an adjustable setting
+(**`` ` `` + scroll**), and a menu (**V**). You can also **[ride the staff](ride.md)**, define custom
+projectiles and commands, and disable any ability server-side.
 
-| # | Ability | What it does |
-|---|---------|--------------|
-| 1 | **[Beam](abilities/beam.md)** | Grab entities and fling them around with a tractor beam. |
-| 2 | **[Electrify](abilities/electrify.md)** | Lock down mobs and players with crackling electricity. |
-| 3 | **[Placement](abilities/placement.md)** | Place, fill, and auto-build blocks WorldEdit-style. |
-| 4 | **[Projectile](abilities/projectile.md)** | Rain arrows, fireballs and TNT — or catch and redirect enemy shots. |
-| 5 | **[Shield](abilities/shield.md)** | Raise a force-field dome that blocks damage and deflects projectiles. |
-| 6 | **[Commands](abilities/commands.md)** | A point-and-click "command dispenser" for effects, items, structures and more. |
-
-You switch abilities by holding **Z** and scrolling. Each one has its own modes and settings — see the
-pages above.
-
-!!! tip "New here?"
-    Start with **[Installation](installation.md)**, then skim **[Controls](controls.md)** — almost
-    everything runs off four keys (`Z`, `Left Alt`, `` ` ``, and `V`).
-
----
-
-## Highlights
-
-- **[Ride the staff](ride.md)** like a broomstick and fly around.
-- A full **point-and-click command UI** — no typing `/effect` ever again.
-- **Custom projectiles & custom commands** you define yourself.
-- Deep **config**: client display options in the mod menu, server-wide rules via `/commandstaff settings`,
-  and a node-graph to **disable** any ability or mode server-side.
-
-> **Closed source.** This repo is for bug reports, ideas and discussion — the mod's code isn't published
-> here. Suggestions very welcome: open an [Issue](https://github.com/Pandzio21/command-block-staff/issues).
+Closed source — this repo and site are for bug reports and ideas.

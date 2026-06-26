@@ -1,31 +1,24 @@
-# Placement (Ability 3)
+# Placement
 
-Place and build blocks with the staff. Pick the block you want with **V** (the block chooser), then build.
+Pick a block with **V**, then build. Modes cycle with **Left Alt**.
 
-## Modes
+## Single Block
+Click to place on the face you're looking at (also works in mid-air). **Shift + hold** paints a trail as
+you move.
 
-Cycle with ++left-alt++:
+## Fill
+Left-click sets corner 1, right-click sets corner 2; the region fills with a live preview (cap 32768).
+**Shift + right-click** toggles **Solid ↔ Air/Remove**, so Fill can also delete.
 
-### Single Block
-- **Click** to place one block on the face you're looking at (vanilla-style; also works in mid-air).
-- **Shift + hold** to paint a continuous trail of blocks as you move.
+## Block Tracker
+Three sub-modes (also **Left Alt**):
 
-### Fill
-- **Left-click** sets corner 1, **right-click** sets corner 2 — the region fills (live preview, up to 32768
-  blocks). **Shift + right-click** toggles **Solid Block ↔ Air / Remove** (so Fill can also *delete*).
+- **Floor Maker** — walk forward to lay a permanent path under you.
+- **Defense Wall** — hold right-click to keep a wall in front of you, following your aim. **Left-click**
+  drops it in place, **Shift + left-click** pushes it out, **Shift + right-click** re-grabs it.
+  **`` ` `` + scroll** sets its distance.
+- **Shaper** — **Shift + right-click** switches shape (Wall / Stairs / Platform), hold right-click to
+  build. In Stairs, **`` ` `` + scroll** grows or shrinks the staircase.
 
-### Block Tracker
-Three sub-modes (also cycled with ++left-alt++ while in Block Tracker):
-
-- **Floor Maker** — walk forward to lay a permanent paved path under you. Easy bridges.
-- **Defense Wall** — hold right-click to keep a wall standing in front of you; it follows your aim.
-  **Left-click** lets go of it in place, **Shift + left-click** pushes it out, **Shift + right-click**
-  re-grabs it. {{ "`" }} + scroll adjusts its distance.
-- **Shaper** — **Shift + right-click** changes the shape (Wall / Stairs / Platform), hold right-click to
-  build. In **Stairs**, scroll with {{ "`" }} to grow/shrink the staircase.
-
-## Extras
-
-- **Easy stairs:** in Placement, **jump while walking forward** to drop a block under you.
-- The block chooser (**V**) has tabs (All / Favorites / Recents / Packs), search, and **C− / C+** buttons to
-  widen or narrow the grid.
+Jumping while walking forward drops a block under you — quick stairs. The **V** chooser has tabs, search,
+and **C− / C+** to resize the grid.
