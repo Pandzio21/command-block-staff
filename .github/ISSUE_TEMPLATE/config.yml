@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Ideas & Discussion
+    url: https://github.com/Pandzio21/command-block-staff/discussions
+    about: Share ideas, ask questions, or chat about the mod here.
+  - name: ⬇️ Download (Modrinth)
+    url: https://modrinth.com/project/avm-staff-command-block-addon
+    about: Get the latest version of the mod.

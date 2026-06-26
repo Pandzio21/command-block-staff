@@ -1,0 +1,76 @@
+site_name: Command Block Staff Addon
+site_description: An add-on for AvM Staff Mod that turns a command block in the staff into a six-ability power tool.
+site_author: Pandzio21
+site_url: https://pandzio21.github.io/command-block-staff/
+
+repo_name: Pandzio21/command-block-staff
+repo_url: https://github.com/Pandzio21/command-block-staff
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Pandzio21/command-block-staff
+    - icon: simple/modrinth
+      link: https://modrinth.com/mod/command-block-staff-addon
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Controls: controls.md
+  - Abilities:
+      - Beam: abilities/beam.md
+      - Electrify: abilities/electrify.md
+      - Placement: abilities/placement.md
+      - Projectile: abilities/projectile.md
+      - Shield: abilities/shield.md
+      - Commands: abilities/commands.md
+  - Ride the Staff: ride.md
+  - Settings: settings.md
+  - FAQ: faq.md

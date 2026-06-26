@@ -1,0 +1,56 @@
+name: "🐞 Bug report"
+description: Something isn't working right in the mod.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! Please fill this out so the issue can be reproduced.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected instead.
+      placeholder: When I do X, Y happens, but I expected Z.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Hold the staff with a command block inserted
+        2. Switch to the ... ability
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: mc-version
+    attributes:
+      label: Minecraft version
+      value: "1.21"
+    validations:
+      required: true
+  - type: input
+    id: mod-version
+    attributes:
+      label: Add-on version
+      placeholder: "1.0.0-beta.1"
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods installed
+      description: List your mods (Fabric API, Fabric Language Kotlin, Architectury, base Staff Mod, etc.).
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / crash report
+      description: Paste the crash report or relevant log lines (drag a file in, or use a paste site).
+      render: text
+    validations:
+      required: false
