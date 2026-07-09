@@ -63,7 +63,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Pandzio21/command-block-staff
     - icon: simple/modrinth
-      link: https://modrinth.com/mod/command-block-staff-addon
+      link: https://modrinth.com/mod/command-block_staff_addon
 
 nav:
   - Home: index.md
