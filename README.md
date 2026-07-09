@@ -1,4 +1,6 @@
-# Command Block Staff
+<p align="center">
+  <img src="docs/assets/banner.png" alt="Command Block Staff" width="760">
+</p>
 
 <p align="left">
   <a href="https://modrinth.com/mod/command-block-staff-addon"><img alt="Modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg"></a>

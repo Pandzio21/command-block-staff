@@ -1,4 +1,6 @@
-# Command Block Staff Addon
+<figure markdown="span">
+  ![Command Block Staff](assets/banner.png){ width="760" }
+</figure>
 
 Slot a command block into the **[AvM Staff Mod](https://modrinth.com/mod/avm-staff)** staff and wield it as a
 six-ability tool, straight out of Animation vs Minecraft.

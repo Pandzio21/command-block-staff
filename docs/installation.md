@@ -20,5 +20,13 @@ An add-on — it needs the base **AvM Staff Mod**. Minecraft **1.21**.
 Optional: [Mod Menu](https://modrinth.com/mod/modmenu) (config button) and
 [Cloth Config](https://modrinth.com/mod/cloth-config) (nicer config screen).
 
-Then put a **command block** into a Royal Staff or Scepter of Friendship (base mod's insert key, default
-**R**) and hold it.
+## Getting the staff
+
+Put a **command block** into a Royal Staff or Scepter of Friendship (base mod's insert key, default
+**R**) and hold it — you get the command-block staff:
+
+<figure markdown="span">
+  ![Command block in the staff](assets/staffview3d.png){ width="150" }
+</figure>
+
+Press **Z + scroll** to pick an ability.
