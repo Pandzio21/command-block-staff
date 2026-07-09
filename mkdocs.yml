@@ -9,6 +9,8 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  logo: assets/icon.png
+  favicon: assets/icon.png
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
