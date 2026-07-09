@@ -5,7 +5,7 @@
 Slot a command block into the **[AvM Staff Mod](https://modrinth.com/mod/avm-staff)** staff and wield it as a
 six-ability tool, straight out of Animation vs Minecraft.
 
-[Download :material-download:](https://modrinth.com/mod/command-block-staff-addon){ .md-button .md-button--primary }
+[Download :material-download:](https://modrinth.com/mod/command-block_staff_addon){ .md-button .md-button--primary }
 [Issues :material-bug:](https://github.com/Pandzio21/command-block-staff/issues){ .md-button }
 
 | # | Ability | |
