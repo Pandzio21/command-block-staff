@@ -37,6 +37,31 @@ positions are re-rolled to keep people apart.
 The **Custom** tab saves your own commands (name + string). Left-click runs, right-click edits. They run at
 permission level 2 and can be favorited.
 
+### Waiting between lines
+
+A custom command can be several lines, run top to bottom like an mcfunction. Put a `wait` on its own line
+and everything **after** it is delayed:
+
+```
+say three
+wait 1s
+say two
+wait 1s
+say one
+wait 20t
+summon lightning_bolt ~ ~ ~
+```
+
+| | |
+|---|---|
+| `wait 1t` | one tick |
+| `wait 20` | 20 ticks — a bare number means ticks |
+| `wait 2s` | two seconds |
+| `wait 1m` | one minute |
+
+Waits add up, so two in a row is the sum of both. Decimals are fine (`wait 1.5s`). The billboard and sound
+still fire the moment you cast, so a delayed function doesn't look like it did nothing.
+
 ### Saving them to the world
 
 The Custom tab has a **💾 Save to World** tile. It writes your whole list into the world folder
