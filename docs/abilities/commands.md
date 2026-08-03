@@ -1,11 +1,11 @@
 # Commands
 
-A point-and-click command dispenser. Effects, items, structures, entity tweaks and more — applied through
-the game API, not chat commands.
+Point-and-click commands. Effects, items, structures, entity tweaks — all applied through the game's own
+API rather than by typing in chat.
 
-**V** opens the picker (searchable, with Favorites and Recent). Pick an entry, set its parameters, **Save** —
-that loads it into the staff. **Right-click** then casts it: the colorized command types out at the tip and
-streaks to the target's head.
+**V** opens the picker: searchable, with Favorites and Recent. Pick something, set its parameters, hit
+**Save**, and it's loaded into the staff. **Right-click** casts it — the command types itself out at the
+staff tip in colour, then streaks over to whatever you're pointing at.
 
 - **Right-click** casts on the entity you're aiming at, or yourself otherwise.
 - **Shift + right-click** forces the aimed entity (or yourself).
@@ -34,8 +34,9 @@ player lands on the surface of their column, so nobody ends up inside terrain or
 positions are re-rolled to keep people apart.
 
 ## Custom commands
-The **Custom** tab saves your own commands (name + string). Left-click runs, right-click edits. They run at
-permission level 2 and can be favorited.
+
+The **Custom** tab is for your own. Give one a name and a command string; left-click runs it, right-click
+edits it. They run at permission level 2 and can be favourited like anything else.
 
 ### Waiting between lines
 
