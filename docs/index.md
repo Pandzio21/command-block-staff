@@ -13,7 +13,7 @@ six-ability tool, straight out of Animation vs Minecraft.
 | 1 | **[Beam](abilities/beam.md)** | Grab entities and fling them. |
 | 2 | **[Electrify](abilities/electrify.md)** | Lock down mobs and players. |
 | 3 | **[Placement](abilities/placement.md)** | Place, fill and auto-build, WorldEdit-style. |
-| 4 | **[Projectile](abilities/projectile.md)** | Rain arrows/fireballs/TNT, or catch and redirect shots. |
+| 4 | **[Projectile](abilities/projectile.md)** | Rain arrows/fireballs/TNT, or build a swarm and launch it. |
 | 5 | **[Shield](abilities/shield.md)** | A force-field dome that blocks and deflects. |
 | 6 | **[Commands](abilities/commands.md)** | Point-and-click command effects. |
 
