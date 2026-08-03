@@ -74,9 +74,9 @@ up over your head and it tracks the whole way.
   presses them into the ground.
 - **Damage depends on the block.** Dirt barely stings; iron, diamond and obsidian hit progressively harder.
 - **Pick a different block while it's up** and the wall re-materialises in the new one.
-- **Left-click** lets go, and it stays standing for good — through item switches and death, like blocks you
-  placed by hand. Building a new wall leaves the old one alone.
-- **Shift + right-click** takes the standing wall back over; plain right-click starts a fresh one.
+- **Left-click destroys the wall** — the whole thing, instantly. Only blocks the wall itself placed get
+  removed, so it won't take a bite out of the terrain it was leaning against.
+- **Shift + right-click** takes a standing wall back over; plain right-click starts a fresh one.
 
 The label is an attack tracker — `tp @e[tag=<block>_attack_tracker] ^ ^ ^<distance>` — in your beam's
 colours, following the wall every tick.

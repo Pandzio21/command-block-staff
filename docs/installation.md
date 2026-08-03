@@ -1,8 +1,9 @@
 # Installation
 
-An add-on — it needs the base **AvM Staff Mod**. Minecraft **1.21** or **1.21.1**, Java **21**.
+This is an add-on, so it needs the base **AvM Staff Mod** underneath it. Minecraft **1.21** or **1.21.1**,
+Java **21**.
 
-Grab the jar for your loader: `commandblockstaff-<version>-fabric.jar` or `-neoforge.jar`.
+Grab the jar for your loader — `commandblockstaff-<version>-fabric.jar` or `-neoforge.jar`.
 
 === "Fabric"
 
@@ -22,31 +23,34 @@ Grab the jar for your loader: `commandblockstaff-<version>-fabric.jar` or `-neof
     | [Kotlin for Forge](https://modrinth.com/mod/kotlin-for-forge) | 5.4.0 |
     | [Architectury API](https://modrinth.com/mod/architectury-api) | 13.0.8 |
 
-## Optional
+Those are minimums — anything newer in the same 1.21.x line is fine.
 
-- **[GeckoLib](https://modrinth.com/mod/geckolib)** 4.5.0+ — only the animated model for
-  **[riding the staff](ride.md)**. The flight itself works without it; you just don't get the animation.
-- **[Mod Menu](https://modrinth.com/mod/modmenu)** (Fabric) — the config button in the mod list.
-- **[Cloth Config](https://modrinth.com/mod/cloth-config)** — a nicer config screen. Without it you get a
-  built-in one that does the same job.
+## Nice to have
 
-None of these are bundled — install them yourself if you want them.
+- **[GeckoLib](https://modrinth.com/mod/geckolib)** 4.5.0+ — only for the animated model when you
+  **[ride the staff](ride.md)**. Flying works without it; you just don't get the animation.
+- **[Mod Menu](https://modrinth.com/mod/modmenu)** (Fabric) — puts a config button in the mod list.
+- **[Cloth Config](https://modrinth.com/mod/cloth-config)** — a nicer settings screen. Without it you get
+  the built-in one, which does the same job.
+
+None of these ship inside the jar, so install whichever you want yourself.
 
 !!! warning "GeckoLib on 1.21.1"
 
-    GeckoLib's **1.21** build claims to support 1.21.1, but one of its own mixins finds no targets there
-    and hard-crashes the game while loading resources. That's a GeckoLib bug, not this add-on's.
+    GeckoLib's **1.21** build says it supports 1.21.1, but one of its own mixins finds nothing to attach to
+    there and crashes the game while it's loading resources. That happens without this add-on installed at
+    all — it's not ours to fix.
 
-    On 1.21.1: either run without GeckoLib, or use a GeckoLib build made for 1.21.1. On 1.21 the normal
-    build is fine. This is exactly why GeckoLib is optional here.
+    On 1.21.1: either skip GeckoLib, or use a build made for 1.21.1. On 1.21 the normal one is fine. This
+    is exactly why it's optional here.
 
 ## Getting the staff
 
-Put a **command block** into a Royal Staff or Scepter of Friendship (base mod's insert key, default
-**R**) and hold it — you get the command-block staff:
+Put a **command block** into a Royal Staff or Scepter of Friendship — that's the base mod's insert key,
+**R** by default — and hold it:
 
 <figure markdown="span">
   ![Command block in the staff](assets/staffview3d.png){ width="150" }
 </figure>
 
-Press **Z + scroll** to pick an ability.
+**Z + scroll** picks an ability and you're away.
