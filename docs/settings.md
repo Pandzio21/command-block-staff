@@ -16,5 +16,13 @@ trail, ability-number layout. Cloth Config gives a nicer version of this screen 
   Click to select (Shift = range, Ctrl = toggle one), then **Enable / Disable**. Disabled commands show a 🔒
   in the picker. Saved per-world.
 
+  Covers modes as well as whole abilities: Beam Hold / Bound / **Choke**, **Move Surface** (Move and
+  Resize), Single Block's **Place / Replace / Air-Remove**, Fill's two sub-modes, each Block Tracker mode
+  and Shaper shape, and every projectile mode and type.
+
+  The Commands tab also lists **every custom command authored on this server**, with its own search box.
+  They select exactly like nodes — plain click, Ctrl to toggle one, Shift for a range — and the same
+  **Enable / Disable** buttons apply. A blue border means selected, red means disabled.
+
 **In-game** — most per-ability values are adjustable on the fly with **`` ` `` + scroll** and **Left Alt**,
 no menu needed.

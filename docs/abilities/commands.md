@@ -17,15 +17,35 @@ streaks to the target's head.
 |----------|--|
 | Effects | Any status effect, with duration and amplifier |
 | Experience | Add levels or points |
-| Attributes / Misc | Heal, feed, clear effects, kill |
-| Give | Any item, with a live search |
+| Attributes / Misc | Heal, feed, clear effects, kill, **spread players** |
+| Give | Any item, with a live search — modded items included |
 | Modify Entity | Glowing, no-gravity, invulnerable, silent, ignite/extinguish, staff light |
 | Structure | Load any structure with a movable hologram preview — arrows move it, **Enter** places |
 | Custom | Your own commands |
 
+**Give** works with modded items: pick one from the search and it inserts the full `namespace:id`. Typing a
+bare name works too — if it isn't a vanilla item, it's looked up across every mod.
+
+Commands can target the **ender dragon**. Its hitbox is made of parts rather than the entity itself, which
+is why it used to be unselectable.
+
+**Spread Players** scatters everyone around the target within a range you set (default 16 blocks). Each
+player lands on the surface of their column, so nobody ends up inside terrain or falling out of the sky, and
+positions are re-rolled to keep people apart.
+
 ## Custom commands
 The **Custom** tab saves your own commands (name + string). Left-click runs, right-click edits. They run at
 permission level 2 and can be favorited.
+
+### Saving them to the world
+
+The Custom tab has a **💾 Save to World** tile. It writes your whole list into the world folder
+(`avm_staff_customcommands.json`), so the commands belong to the save rather than to one client's config
+file: they travel with the world, survive reinstalls, and are handed to every player who joins.
+
+Merging is additive and matched on the command text, so joining a world can only ever *give* you commands —
+it never deletes or rewrites ones you wrote yourself. Saving requires op, since it writes world data
+everyone then receives.
 
 **U** undoes the last reversible action (effects, attribute/entity changes, XP). Raw/custom commands and
 structure placements aren't undoable.
