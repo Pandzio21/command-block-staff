@@ -5,9 +5,8 @@ Pick a block with **V**, then build. **Left Alt** cycles the modes.
 Haven't picked one yet? The staff says so instead of quietly doing nothing, and the beam stays off rather
 than promising a block that isn't coming.
 
-The **Pick Block** key (Left Ctrl by default, rebindable) + right-click is an eyedropper in every mode.
-If you've got sneak on the same key, the mode action wins and the picker steps aside — move either one and
-you get both back.
+**Middle-click** is an eyedropper in every mode — it picks whatever block you're aiming at, at the staff's
+range. The staff stays in your hand; vanilla's pick-block would have swapped it out.
 
 ## Single Block
 
@@ -77,6 +76,8 @@ up over your head and it tracks the whole way.
 - **Left-click destroys the wall** — the whole thing, instantly. Only blocks the wall itself placed get
   removed, so it won't take a bite out of the terrain it was leaning against.
 - **Shift + right-click** takes a standing wall back over; plain right-click starts a fresh one.
+- ++j++ is a **quickbind** for the whole thing: press once and the wall goes up and follows your aim with
+  nothing held, press again and it comes down. Works from any ability.
 
 The label is an attack tracker — `tp @e[tag=<block>_attack_tracker] ^ ^ ^<distance>` — in your beam's
 colours, following the wall every tick.
@@ -93,6 +94,14 @@ colours, following the wall every tick.
   actually walkable. Bedrock and other unbreakables are left alone.
 - Going **down**, each step replaces the ground it cuts through, so you end up with a staircase and not a
   hole. "Full stairs" only applies going up.
+
+### Platform (quickbind)
+
+++k++ turns on a platform that keeps paving itself under you, hands-free — no ability to select, no button
+to hold. **{{ "`" }} + scroll** sets the width (3–5); the **build modifier** switches that scroll over to
+depth (1–3), which hangs *below* the surface you're walking on. See [Controls](../controls.md).
+
+++h++ and ++j++ are the other two quickbinds — Shield and Defense Wall on/off from anywhere.
 
 ## Easy stairs
 
