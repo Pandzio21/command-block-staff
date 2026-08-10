@@ -3,9 +3,6 @@
 Right-click and a force-field dome goes up around you. **`` ` `` + scroll** sizes it, 1.5 to 8, in tenths,
 easing smoothly rather than jumping between sizes.
 
-++h++ raises and drops it **from any ability**, so you don't have to scroll over to Shield first — see
-[Controls](../controls.md).
-
 While it's up:
 
 - Nothing hurts you. Explosions don't even knock you back.
