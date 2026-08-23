@@ -2,12 +2,19 @@
   <img src="docs/assets/banner.png" alt="Command Block Staff" width="760">
 </p>
 
-<p align="left">
-  <a href="https://modrinth.com/mod/command_block_staff_addon"><img alt="Modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg"></a>
-  <a href="https://pandzio21.github.io/command-block-staff/"><img alt="Documentation" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/ghpages_vector.svg"></a>
-  <img alt="Fabric" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">
-  <img alt="NeoForge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/neoforge_vector.svg">
-</p>
+<div align="center">
+
+[![Download from Modrinth](https://img.shields.io/modrinth/v/command_block_staff_addon?style=flat&logo=modrinth&logoColor=white&label=Download%20from%20Modrinth&color=00af5c)](https://modrinth.com/mod/command_block_staff_addon/versions)
+[![Download from CurseForge](https://img.shields.io/badge/Download_from-CurseForge-f16436?style=flat&logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/mc-mods/command-block-staff-addon/files)
+[![Modrinth downloads](https://img.shields.io/modrinth/dt/command_block_staff_addon?style=flat&logo=modrinth&logoColor=white&label=downloads&color=00af5c)](https://modrinth.com/mod/command_block_staff_addon)
+[![CurseForge downloads](https://img.shields.io/curseforge/dt/1585146?style=flat&logo=curseforge&logoColor=white&label=downloads&color=f16436)](https://www.curseforge.com/minecraft/mc-mods/command-block-staff-addon)
+[![Minecraft](https://img.shields.io/modrinth/game-versions/command_block_staff_addon?style=flat&label=Minecraft&color=54ba58)](https://modrinth.com/mod/command_block_staff_addon/versions)
+![Loaders](https://img.shields.io/badge/loaders-Fabric_%7C_NeoForge-dbb18a?style=flat)
+[![Requires AvM Staff Mod](https://img.shields.io/badge/requires-AvM_Staff_Mod-9b59d0?style=flat)](https://modrinth.com/mod/avm-staff)
+[![Report a bug](https://img.shields.io/github/issues/Pandzio21/command-block-staff?style=flat&logo=github&label=Report%20a%20bug&color=24292f)](https://github.com/Pandzio21/command-block-staff/issues)
+[![Docs](https://img.shields.io/badge/Read_the-docs-8ca1af?style=flat&logo=readthedocs&logoColor=white)](https://pandzio21.github.io/command-block-staff/)
+
+</div>
 
 An add-on for the **AvM Staff Mod** *(Animation vs Minecraft)* that turns a command block placed in the
 staff into a six-ability power tool — grab entities with a beam, electrify mobs, place & fill blocks
