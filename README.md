@@ -11,6 +11,7 @@
 [![Minecraft](https://img.shields.io/modrinth/game-versions/command_block_staff_addon?style=flat&label=Minecraft&color=54ba58)](https://modrinth.com/mod/command_block_staff_addon/versions)
 ![Loaders](https://img.shields.io/badge/loaders-Fabric_%7C_NeoForge-dbb18a?style=flat)
 [![Requires AvM Staff Mod](https://img.shields.io/badge/requires-AvM_Staff_Mod-9b59d0?style=flat)](https://modrinth.com/mod/avm-staff)
+[![Discord](https://img.shields.io/badge/Discord-join_the_server-5865f2?style=flat&logo=discord&logoColor=white)](https://discord.gg/sYwtFyTjhG)
 [![Report a bug](https://img.shields.io/github/issues/Pandzio21/command-block-staff?style=flat&logo=github&label=Report%20a%20bug&color=24292f)](https://github.com/Pandzio21/command-block-staff/issues)
 [![Docs](https://img.shields.io/badge/Read_the-docs-8ca1af?style=flat&logo=readthedocs&logoColor=white)](https://pandzio21.github.io/command-block-staff/)
 

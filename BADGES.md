@@ -1,8 +1,9 @@
 # Badges
 
-Paste under the banner/logo on each page. All nine are verified to resolve to live data.
+Paste under the banner/logo on each page. All ten are verified to resolve to live data.
 
-CurseForge project id **1585146**, Modrinth slug **command_block_staff_addon**.
+CurseForge project id **1585146**, Modrinth slug **command_block_staff_addon**,
+Discord server id **1518632953717194957**.
 
 The `<div align="center">` wrapper centres them under the logo on GitHub. Modrinth and CurseForge may
 strip the wrapper - if they do the badges still render, just left-aligned, so it is safe to paste the
@@ -20,6 +21,7 @@ same block everywhere.
 [![Minecraft](https://img.shields.io/modrinth/game-versions/command_block_staff_addon?style=flat&label=Minecraft&color=54ba58)](https://modrinth.com/mod/command_block_staff_addon/versions)
 ![Loaders](https://img.shields.io/badge/loaders-Fabric_%7C_NeoForge-dbb18a?style=flat)
 [![Requires AvM Staff Mod](https://img.shields.io/badge/requires-AvM_Staff_Mod-9b59d0?style=flat)](https://modrinth.com/mod/avm-staff)
+[![Discord](https://img.shields.io/badge/Discord-join_the_server-5865f2?style=flat&logo=discord&logoColor=white)](https://discord.gg/sYwtFyTjhG)
 [![Report a bug](https://img.shields.io/github/issues/Pandzio21/command-block-staff?style=flat&logo=github&label=Report%20a%20bug&color=24292f)](https://github.com/Pandzio21/command-block-staff/issues)
 [![Docs](https://img.shields.io/badge/Read_the-docs-8ca1af?style=flat&logo=readthedocs&logoColor=white)](https://pandzio21.github.io/command-block-staff/)
 
@@ -39,6 +41,7 @@ Without the "Download from Modrinth" badge - on the Modrinth page it links to th
 [![Minecraft](https://img.shields.io/modrinth/game-versions/command_block_staff_addon?style=flat&label=Minecraft&color=54ba58)](https://modrinth.com/mod/command_block_staff_addon/versions)
 ![Loaders](https://img.shields.io/badge/loaders-Fabric_%7C_NeoForge-dbb18a?style=flat)
 [![Requires AvM Staff Mod](https://img.shields.io/badge/requires-AvM_Staff_Mod-9b59d0?style=flat)](https://modrinth.com/mod/avm-staff)
+[![Discord](https://img.shields.io/badge/Discord-join_the_server-5865f2?style=flat&logo=discord&logoColor=white)](https://discord.gg/sYwtFyTjhG)
 [![Report a bug](https://img.shields.io/github/issues/Pandzio21/command-block-staff?style=flat&logo=github&label=Report%20a%20bug&color=24292f)](https://github.com/Pandzio21/command-block-staff/issues)
 [![Docs](https://img.shields.io/badge/Read_the-docs-8ca1af?style=flat&logo=readthedocs&logoColor=white)](https://pandzio21.github.io/command-block-staff/)
 
@@ -58,11 +61,27 @@ Same idea, minus the CurseForge one. Paste in the editor's **Markdown** mode.
 [![Minecraft](https://img.shields.io/modrinth/game-versions/command_block_staff_addon?style=flat&label=Minecraft&color=54ba58)](https://modrinth.com/mod/command_block_staff_addon/versions)
 ![Loaders](https://img.shields.io/badge/loaders-Fabric_%7C_NeoForge-dbb18a?style=flat)
 [![Requires AvM Staff Mod](https://img.shields.io/badge/requires-AvM_Staff_Mod-9b59d0?style=flat)](https://modrinth.com/mod/avm-staff)
+[![Discord](https://img.shields.io/badge/Discord-join_the_server-5865f2?style=flat&logo=discord&logoColor=white)](https://discord.gg/sYwtFyTjhG)
 [![Report a bug](https://img.shields.io/github/issues/Pandzio21/command-block-staff?style=flat&logo=github&label=Report%20a%20bug&color=24292f)](https://github.com/Pandzio21/command-block-staff/issues)
 [![Docs](https://img.shields.io/badge/Read_the-docs-8ca1af?style=flat&logo=readthedocs&logoColor=white)](https://pandzio21.github.io/command-block-staff/)
 
 </div>
 ```
+
+## The Discord badge can show a live member count
+
+Right now it is a plain "join the server" button, because shields reads member counts from the
+server's **widget**, and this one has it switched off - `discord/1518632953717194957` renders the
+words **"widget disabled"**.
+
+Turn it on in **Server Settings -> Widget -> Enable Server Widget**, then swap the badge for:
+
+```markdown
+[![Discord](https://img.shields.io/discord/1518632953717194957?style=flat&logo=discord&logoColor=white&label=Discord&color=5865f2)](https://discord.gg/sYwtFyTjhG)
+```
+
+That reads "Discord | N online". Enabling the widget also makes the member count public, which is the
+trade: at 30 members a live count is arguably not worth showing yet.
 
 ## Left out on purpose
 
